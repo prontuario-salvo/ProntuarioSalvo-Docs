@@ -1,0 +1,24 @@
+site_name: Prontuário Salvo
+
+repo_name: "ProntuarioSalvo-Docs"
+repo_url: "https://github.com/prontuario-salvo/ProntuarioSalvo-Docs"
+
+theme:
+  name: material
+  language: "pt"
+  icon:
+    logo: material/hospital-box-outline
+    repo: fontawesome/brands/github
+  palette:
+    primary: "red"
+    accent: "red"
+  font:
+    text: "Montserrat"
+    code: "sans-serif"
+
+extra_css:
+  - stylesheets/styles.css
+
+nav:
+    - Início: index.md
+    - Sobre: about.md
